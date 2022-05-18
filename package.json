@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.3",
   "description": "A simple web component",
-  "main": "my-element.js",
-  "module": "my-element.js",
+  "main": "simple-carousel.js",
+  "module": "simple-carousel.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -43,6 +43,9 @@
   "dependencies": {
     "lit": "^2.1.0"
   },
+  "files": [
+    "*.js"
+  ],
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
